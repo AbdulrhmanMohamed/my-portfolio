@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://abdulrhman-portfolio.vercel.app/sitemap.xml
+Sitemap: https://abdulrhmanmohamed.github.io/my-portfolio/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
