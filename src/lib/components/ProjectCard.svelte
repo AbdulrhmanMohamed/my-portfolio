@@ -16,16 +16,8 @@
 			loading="lazy"
 		/>
 	</div>
-	<div class="space-y-3 p-5">
-		<div class="flex flex-wrap gap-1.5">
-			{#each project.technologies.slice(0, 3) as tech}
-				<span class="rounded-md bg-teal-500/10 px-2 py-0.5 text-[11px] font-medium text-teal-400 light:text-teal-600">{tech}</span>
-			{/each}
-			{#if project.technologies.length > 3}
-				<span class="rounded-md bg-zinc-800 px-2 py-0.5 text-[11px] text-zinc-500 light:bg-zinc-100 light:text-zinc-400">+{project.technologies.length - 3}</span>
-			{/if}
-		</div>
+	<div class="space-y-2 p-5">
 		<h3 class="text-base font-semibold text-zinc-100 light:text-zinc-900">{project.title}</h3>
-		<p class="text-sm leading-relaxed text-zinc-400 light:text-zinc-500">{project.subtitle}</p>
+		<p class="text-sm leading-relaxed text-zinc-500 light:text-zinc-400">{project.subtitle}</p>
 	</div>
 </button>

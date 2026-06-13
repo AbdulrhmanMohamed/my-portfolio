@@ -1,21 +1,20 @@
 export const profile = {
 	name: 'Abdulrhman Mohamed',
-	title: 'Full-Stack Developer & Technical Partner',
+	title: 'We help local service businesses get more phone calls from Google',
 	email: 'afarg843@gmail.com',
 	phone: '+20 120 139 2000',
-	location: 'Egypt',
 	availableForRemote: true,
 	social: {
 		linkedin: 'https://www.linkedin.com/in/abdelrhman-farg/',
 		whatsapp: 'https://wa.me/201201392000'
 	},
 	bio: [
-		'I transform complex business ideas into elegant, high-performing web applications. With over five years of experience across the full stack, I specialize in building scalable solutions with React, SvelteKit, Node.js, and modern TypeScript.',
-		'I believe great software starts with understanding people — not just technology. Every project I take on is a partnership aimed at delivering real business value through clean architecture, thoughtful UX, and maintainable code.'
+		'I work with local service businesses — HVAC, plumbing, roofing, cleaning, medical practices, and more — to build websites that actually bring in phone calls. Not a brochure online, but a complete system: a website optimized for conversions, Google visibility so customers can find you, and tracking so you know what is working.',
+		'No tech jargon. No complicated process. I build a working demo first so you can see exactly what you are getting before any commitment. Then I handle the launch, set up your Google presence, and offer a monthly retainer to keep everything running smoothly.'
 	],
 	stats: [
-		{ label: 'Projects Delivered', value: '6+' },
-		{ label: 'Client Satisfaction', value: '100%' },
-		{ label: 'Years Experience', value: '5+' }
+		{ label: 'Businesses Helped', value: '9+' },
+		{ label: 'Industries Served', value: '6' },
+		{ label: 'Avg Project Setup', value: '5-7 days' }
 	]
 };

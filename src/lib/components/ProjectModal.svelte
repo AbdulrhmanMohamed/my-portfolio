@@ -67,21 +67,12 @@
 				</div>
 
 				<div>
-					<h3 class="mb-2 text-sm font-semibold text-zinc-100 light:text-zinc-900">About</h3>
+					<h3 class="mb-2 text-sm font-semibold text-zinc-100 light:text-zinc-900">The Project</h3>
 					<p class="text-sm leading-relaxed text-zinc-400 light:text-zinc-500">{project.description}</p>
 				</div>
 
 				<div>
-					<h3 class="mb-3 text-sm font-semibold text-zinc-100 light:text-zinc-900">Technologies</h3>
-					<div class="flex flex-wrap gap-2">
-						{#each project.technologies as tech}
-							<span class="rounded-lg bg-zinc-800 px-3 py-1.5 text-xs font-medium text-zinc-300 light:bg-zinc-100 light:text-zinc-700">{tech}</span>
-						{/each}
-					</div>
-				</div>
-
-				<div>
-					<h3 class="mb-3 text-sm font-semibold text-zinc-100 light:text-zinc-900">Features</h3>
+					<h3 class="mb-3 text-sm font-semibold text-zinc-100 light:text-zinc-900">What Was Delivered</h3>
 					<ul class="space-y-2">
 						{#each project.features as feature}
 							<li class="flex items-start gap-3 text-sm text-zinc-400 light:text-zinc-500">
@@ -102,7 +93,7 @@
 							rel="noopener noreferrer"
 							class="inline-flex items-center gap-2 rounded-xl bg-zinc-800 px-5 py-2.5 text-sm font-medium text-zinc-100 transition-colors hover:bg-zinc-700 light:bg-zinc-100 light:text-zinc-900 light:hover:bg-zinc-200"
 						>
-							Visit Project
+							Visit the site
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
 							</svg>

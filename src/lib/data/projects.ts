@@ -3,9 +3,7 @@ export interface Project {
 	title: string;
 	subtitle: string;
 	description: string;
-	technologies: string[];
 	features: string[];
-	achievements: string[];
 	url: string;
 	image: string;
 }
@@ -14,22 +12,15 @@ export const projects: Project[] = [
 	{
 		key: 'stone-traders',
 		title: 'Stone Traders Egypt',
-		subtitle: 'Premium Engineered Stone Solutions',
+		subtitle: 'Premium Stone Supply — B2B Lead Generation',
 		description:
-			'Founded in 2007, Stone Traders is an Egyptian Limited Liability Company specialized in supplying & installing premier quality Stone products. Built with a modern tech stack to showcase an extensive catalog of engineered marble, quartz, glaskeramic, and porcelain slabs.',
-		technologies: ['TypeScript', 'React.js', 'Node.js', 'MongoDB'],
+			'A 15-year-old stone supply company needed a website that would let architects, contractors, and interior designers browse their catalog and request quotes online. Delivered a bilingual (EN/AR) product showcase with an integrated quote request system — turning their catalog into a lead generation tool.',
 		features: [
-			'Premium stone product catalog',
-			'Interactive product gallery',
-			'Custom quote system',
-			'Installation service booking',
-			'Multi-language support (Arabic/English)',
-			'Responsive design for all devices'
-		],
-		achievements: [
-			'15+ years of industry experience represented online',
-			'Premium quality stone product showcase',
-			'Professional installation service integration'
+			'Full product catalog with search and filtering',
+			'Quote request system for bulk inquiries',
+			'Bilingual Arabic/English interface',
+			'Google Business Profile integration',
+			'Contact form with automated follow-up'
 		],
 		url: 'https://stonetraders-eg.com/',
 		image: '/stone-traders.png'
@@ -37,22 +28,15 @@ export const projects: Project[] = [
 	{
 		key: 'north-sea',
 		title: 'North Sea for Marine Services',
-		subtitle: 'Professional Marine & Petroleum Services',
+		subtitle: 'Marine Services — Multi-Service Credibility',
 		description:
-			'North Sea for Marine Services is officially registered under the Egyptian Authority for Operations Approval and the Ministry of Maritime Transport. The platform showcases their commercial diving, petroleum services, and marine equipment divisions.',
-		technologies: ['HTML5', 'CSS3', 'JavaScript', 'PHP'],
+			'A government-registered marine services company needed a professional web presence to attract international clients across their multiple divisions — commercial diving, petroleum services, and equipment supply. Delivered a comprehensive service showcase with clear division pages and a centralized contact system.',
 		features: [
-			'Commercial diving services showcase',
-			'Petroleum industry solutions',
-			'Marine equipment supply & manufacturing',
-			'Communication systems integration',
-			'Video surveillance solutions',
-			'Professional marine consulting'
-		],
-		achievements: [
-			'Officially registered with Egyptian Maritime Authority',
-			'Ministry of Maritime Transport approved',
-			'Comprehensive marine solutions provider'
+			'Multi-division service pages with detailed descriptions',
+			'Professional company credentials and certifications',
+			'Centralized contact and inquiry system',
+			'Google Maps and location integration',
+			'Mobile-optimized for on-site access'
 		],
 		url: 'https://northsea-eg.com/',
 		image: '/north-sea.png'
@@ -60,22 +44,15 @@ export const projects: Project[] = [
 	{
 		key: 'stone-crew',
 		title: 'StoneCrew',
-		subtitle: 'Premium Stone Supply & Installation',
+		subtitle: 'Stone Installation — Project Showcase & Lead Capture',
 		description:
-			'StoneCrew is a trusted partner in the supply and installation of premium-quality stones including quartz, granite, and marble. Built with Next.js, the platform reflects their commitment to excellence and unparalleled craftsmanship.',
-		technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS'],
+			'A fast-growing stone installation company needed a website that demonstrated their craftsmanship quality to win larger projects. Delivered a premium project gallery showcasing their work, service pages explaining their process, and a consultation request system to capture qualified leads.',
 		features: [
-			'Premium stone supply (quartz, granite, marble)',
-			'Professional installation services',
-			'Custom stone fabrication',
-			'Project consultation and design',
-			'Quality assurance and warranties',
-			'Comprehensive repair services'
-		],
-		achievements: [
-			'10+ years of industry experience',
-			'Full-scale installation capabilities',
-			'Customer satisfaction guarantee'
+			'Project portfolio gallery with before/after',
+			'Service pages with detailed process explanations',
+			'Consultation request form',
+			'Satisfied client testimonials section',
+			'Smooth mobile experience for on-the-go prospects'
 		],
 		url: 'https://stonecrew-eg.com/',
 		image: '/stone-crew.png'
@@ -83,22 +60,15 @@ export const projects: Project[] = [
 	{
 		key: 'dr-abeer',
 		title: 'Dr. Abeer Abu Kamar',
-		subtitle: 'Consultant in Obstetrics, Gynecology & IVF',
+		subtitle: 'Medical Practice — Online Appointment Booking',
 		description:
-			'A specialized medical platform built with SvelteKit for a leading OB/GYN consultant with over 15 years of experience. The site features online appointment booking, telemedicine consultation, and comprehensive information about fertility treatments.',
-		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+			'A leading OB/GYN and IVF specialist with 15+ years of experience needed a website that could handle appointment bookings directly from patients. Delivered a bilingual medical platform with an integrated booking system, telemedicine information, and comprehensive service pages.',
 		features: [
-			'Specialized medical consultation services',
 			'Online appointment booking system',
-			'Telemedicine integration',
-			'Fertility treatment information',
-			'Patient case management',
-			'Bilingual Arabic/English interface'
-		],
-		achievements: [
-			'15+ years of medical expertise showcased',
-			'Highest success rates in IVF treatments',
-			'Serving patients across Egypt, Libya, and beyond'
+			'Bilingual Arabic/English patient interface',
+			'Service and treatment information pages',
+			'Telemedicine consultation details',
+			'Patient education resources'
 		],
 		url: 'https://dr-abeer.vercel.app/',
 		image: '/Dr.Abeer.png'
@@ -106,23 +76,15 @@ export const projects: Project[] = [
 	{
 		key: 'dr-maghraby',
 		title: 'Prof. Hassan Maghraby',
-		subtitle: 'Professor of Obstetrics and Gynecology',
+		subtitle: 'Academic Medicine — Professional Portfolio & Outreach',
 		description:
-			'An academic portfolio for a distinguished professor at Alexandria University and former chairman of the OB/GYN department. The platform highlights research publications, academic achievements, and international collaborations.',
-		technologies: ['Vue.js', 'JavaScript', 'CSS3', 'PHP'],
+			'A distinguished professor of obstetrics and gynecology at Alexandria University needed an academic portfolio that also served as a patient outreach tool. Delivered a professional website showcasing his research, academic appointments, and clinical services — bridging the gap between academia and patient care.',
 		features: [
-			'Academic portfolio and research publications',
-			'Reproductive medicine expertise showcase',
-			'Medical consultation services',
-			'Research and development in embryology',
-			'International medical collaboration',
-			'Educational content and resources'
-		],
-		achievements: [
-			'Professor at Alexandria University',
-			'Ex-chairman of OB/GYN department',
-			'Fellow at Pennsylvania University, USA',
-			'President of Egyptian Foundation of Reproductive Medicine and Embryology'
+			'Academic profile with research publications',
+			'Professional credentials and appointments',
+			'Clinical service information',
+			'International collaboration highlights',
+			'Contact and consultation inquiry system'
 		],
 		url: 'https://dr-maghraby.vercel.app/',
 		image: '/Dr.Hassan-Maghraby.png'
@@ -130,22 +92,15 @@ export const projects: Project[] = [
 	{
 		key: 'cargo',
 		title: 'CQS International',
-		subtitle: 'Top Class Cargo Surveying Services',
+		subtitle: 'Cargo Surveying — Global Professional Presence',
 		description:
-			'Founded in 2011, CQS International provides top-class cargo surveying services with uncompromising standards. The platform communicates their commitment to quality, efficiency, accuracy, and dedication in every inspection.',
-		technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
+			'An international cargo surveying firm needed a credible web presence to attract clients across different countries. Delivered a professional service showcase highlighting their certifications, industry expertise, and quality standards — with a contact system that works across time zones.',
 		features: [
-			'Professional cargo surveying services',
-			'Quality assurance and inspection',
-			'Comprehensive reporting systems',
-			'International shipping compliance',
-			'Damage assessment and documentation',
-			'Client consultation and support'
-		],
-		achievements: [
-			'Founded in 2011 with proven track record',
-			'Uncompromising quality standards',
-			'Client satisfaction focused operations'
+			'Professional service pages with certifications',
+			'Quality standards and methodology documentation',
+			'International contact and inquiry system',
+			'Company history and credentials',
+			'Mobile-friendly for international accessibility'
 		],
 		url: 'https://cargoq-serv.com/',
 		image: '/cargo.png'
@@ -153,22 +108,15 @@ export const projects: Project[] = [
 	{
 		key: 'legien-message',
 		title: 'مركز لجين سبا للمساج',
-		subtitle: 'Licensed Massage & Spa Center in KSA',
+		subtitle: 'Local Spa — Bilingual Customer Acquisition',
 		description:
-			'A fully licensed massage and spa center in Jeddah, Saudi Arabia. The platform showcases their sports, relaxation, and therapeutic massage services with a seamless booking system and bilingual Arabic/English interface.',
-		technologies: ['HTML5', 'CSS3', 'JavaScript', 'Arabic RTL'],
+			'A licensed massage and spa center in Jeddah, Saudi Arabia needed to attract local customers searching for wellness services online. Delivered a fully bilingual (AR/EN) website with service pages, location information, and an online booking system — making it easy for customers to find and book.',
 		features: [
-			'Specialized sports massage services',
-			'Relaxation and therapeutic massage',
-			'Online appointment booking',
-			'Comprehensive spa services',
-			'Trained professional team',
-			'Comfortable and safe environment'
-		],
-		achievements: [
-			'Officially licensed and accredited',
-			'License no: 7039220152',
-			'Strategic location in Jeddah'
+			'Bilingual Arabic/English interface with RTL support',
+			'Service catalog with descriptions and pricing',
+			'Online appointment booking system',
+			'Google Maps and location integration',
+			'Mobile-optimized for local on-the-go searches'
 		],
 		url: 'https://legien-message.com/',
 		image: '/legien-message.png'
@@ -176,22 +124,15 @@ export const projects: Project[] = [
 	{
 		key: 'clean-max',
 		title: 'كلين ماكس',
-		subtitle: 'Leading Comprehensive Cleaning Services',
+		subtitle: 'Cleaning Services — Local Market Domination',
 		description:
-			'Clean Max is a leading cleaning services company in Saudi Arabia, serving homes, businesses, institutions, and special events. The bilingual platform reflects their commitment to quality and professionalism.',
-		technologies: ['HTML5', 'CSS3', 'JavaScript', 'Arabic RTL'],
+			'A leading cleaning company in Saudi Arabia needed a professional web presence to capture both residential and corporate clients searching online for cleaning services. Delivered a bilingual website showcasing their full range of services, company credentials, and a streamlined contact system.',
 		features: [
-			'Comprehensive home cleaning services',
-			'Corporate and institutional cleaning',
-			'Special event cleaning services',
-			'Trained and specialized team',
-			'Latest equipment and techniques',
-			'24/7 customer service'
-		],
-		achievements: [
-			'Leading company in cleaning services',
-			'Quality and professionalism as core principles',
-			'Excellent reputation in the Saudi market'
+			'Bilingual Arabic/English with full RTL support',
+			'Comprehensive service catalog for homes and businesses',
+			'Company credentials and licensing information',
+			'Contact and quote request forms',
+			'Google visibility optimization for local search'
 		],
 		url: 'https://cleanmax-ksa.com/',
 		image: '/clean-max.png'
@@ -199,22 +140,15 @@ export const projects: Project[] = [
 	{
 		key: 'marketing-house',
 		title: 'The Marketing House',
-		subtitle: 'Excellence in Technology Solutions',
+		subtitle: 'Tech Solutions — Service Portfolio & Client Acquisition',
 		description:
-			'A technology solutions company that combines technical excellence with flexible management. The platform showcases their ability to adapt to client vision changes while maintaining budget and timeline commitments.',
-		technologies: ['React.js', 'Node.js', 'TypeScript', 'MongoDB'],
+			'A technology solutions company needed a website that communicated their expertise and flexibility to potential clients. Delivered a modern service portfolio with case study format, client testimonials, and a clear contact path — making it easy for prospects to understand their capabilities and reach out.',
 		features: [
-			'Custom technology solutions development',
-			'Flexible project management approach',
-			'Budget-conscious development practices',
-			'Punctual delivery and time management',
-			'Client vision adaptation capabilities',
-			'Quality assurance and testing'
-		],
-		achievements: [
-			'Proven track record in technology solutions',
-			'Flexible management approach',
-			'Strong client reliability and trust'
+			'Service portfolio with detailed capability pages',
+			'Case study format for past work',
+			'Client testimonial section',
+			'Clear call-to-action for consultations',
+			'Modern, trust-building design'
 		],
 		url: 'https://themarketinghouse.com/',
 		image: '/TheMarketinghouse.png'
